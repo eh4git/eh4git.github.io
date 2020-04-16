@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="mainBio">
+
+      <h2>Erik Hirsch</h2>
+
+      <img id="bioImage" width="150" src="https://vignette.wikia.nocookie.net/marvel_dc/images/a/a5/Superman_Vol_5_1_Textless.jpg/revision/latest?cb=20180711061148" alt ="Erik Hirsch"> 
+
+      <p>My name is Erik Hirsch, I am looking forward to learning everthing I can in this course. I hope to develop the skills that will make me employeer ready. This has been fun and challenging already and... I am sick of working dead end jobs! <a href="#">Dead Link</a></p>
+    </section>
+
+    <section class="contactInfo">
+      <h2 class="contactHeader">Contact Info</h2>
+      
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:ehrisch760@gmail.com">ehirsch760@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/">Github Home</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">Coming very soon!</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <h2 class="marginright">Up in the sky, it's a bird, it's a plane, it's Erik</h2>
 </body>
+
 </html>

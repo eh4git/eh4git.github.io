@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;  
+  font-family: "Georgia", "Times New Roman";
+  font-size: 18px;
+  line-height: 150%;
+}
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+.contactHeader {
+    font-size: 24px;
+    margin-left: 20px;
+    text-align: center;
+}
+  
+  a {
+      color: red;
+  }
+  .container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    }
+  #mainBio,
+  #bioImage,
+  #contactInfo {
+      float:left;
+  }
+  #mainBio {
+      width:65%;
+  }
+  #contactInfo {
+      width: 35%;
+      
+      text-align: center;
+  }
+  #bioImage {
+      margin-right: 20px;
+      width:200px;
+      height:200px;
+  }
+
+  .marginright {
+      text-align: center;
+  }
